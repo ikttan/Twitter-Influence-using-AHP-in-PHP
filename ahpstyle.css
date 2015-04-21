@@ -1,0 +1,197 @@
+p, ol, ul, li {
+	    margin:0px;
+	    padding:0px;
+	    font-size:13px;
+	    font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	h1{
+		color:white; 
+		bottom: 53px;
+		right:-100px;
+		position: relative;
+	}
+
+	h2{
+		margin:0px;
+	    padding:0px;
+	    line-height: 80%;
+	    color: white;
+	}
+
+	h3 {
+		text-align: left;
+	}
+
+	th, td {
+	    border: 1px solid white;
+	    border-collapse: collapse;
+	}	 
+
+	table {
+		
+	}
+
+	a{
+		color: orange;
+	}
+	
+	body{
+	height:100%;
+	background: rgb(0,167,173); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,167,173,1) 0%, rgba(0,17,114,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,167,173,1)), color-stop(100%,rgba(0,17,114,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,167,173,1) 0%,rgba(0,17,114,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,167,173,1) 0%,rgba(0,17,114,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,167,173,1) 0%,rgba(0,17,114,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,167,173,1) 0%,rgba(0,17,114,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a7ad', endColorstr='#001172',GradientType=0 ); /* IE6-9 */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	line-height: 1.5em;
+	  font-family:Arial, Helvetica, sans-serif;
+	}
+
+	div{
+
+	}
+
+	#left {
+    float:left;
+    width: auto;
+	}
+
+	#right {
+	    float:right;
+	    text-align: center;
+	    width: auto;
+	    margin-right: 100px;
+
+	}
+
+	#blue_box {
+	    position: relative;
+	    padding:10px;
+	    overflow: auto;
+	}
+
+	.divider{
+	    position:absolute;
+	    left:50%;
+	    top:10%;
+	    bottom:10%;
+	    border-left:1px solid white;
+	}
+	
+	.normaltable{
+		border: 1.5px solid #cccccc;
+	    text-align: center;
+	    width: 100%;
+    	border-collapse: collapse;
+    	margin:auto;
+	}
+
+	.bigbox{
+		position: relative;
+	    background:grey;
+	    width: auto;
+	    height: auto;
+	    padding:10px;
+	}	
+
+	.finalahptable{
+		border: 1.5px solid #cccccc;
+	    text-align: center;
+	    width: 80%;
+    	border-collapse: collapse;
+    	margin:auto;
+	}
+
+	.comparisontable{
+		border: 2px solid #cccccc;
+	    text-align: center;
+	    width: 55%;
+    	border-collapse: collapse;
+    	margin:auto;
+	}
+
+	.test{
+  	height:45px;
+  	width:45px;
+  	position: relative;
+	}
+
+	.test img {
+		position:absolute;
+	 	-webkit-transition: opacity 0.4s ease-in-out;
+	 	-moz-transition: opacity 0.4s ease-in-out;
+		-o-transition: opacity 0.4s ease-in-out;
+	  	transition: opacity 0.4s ease-in-out;
+	}
+
+	.test img.top:hover {
+		opacity: 0;
+	}
+
+	#container {
+	    width:500px;   
+	    /*margin:auto;*/
+	    margin-top:10px;
+	}
+	 
+	/* --------- COLLAPSIBLE PANELS ----------*/
+	 
+	.expandable-panel {
+	    width:auto;
+	    
+	    min-height:50px;
+	    overflow:auto;
+	    margin-bottom: 10px;
+	    border:1px solid #999;
+	    background-color: rgba(0,0,0,0.5);
+	}  
+	.expandable-panel-heading {
+	    width:auto;
+	    cursor:pointer;
+	    min-height:50px;
+	    clear:both;
+	    background-color:#E5E5E5;
+	    position:relative;
+	    color: #23068F;
+	}
+	.expandable-panel-heading:hover {
+	    color:#00a5ff;
+	}
+	.expandable-panel-heading h2 {
+	    padding:14px 10px 9px 15px;
+	    font-size:18px;
+	    line-height:20px;
+	}
+	.expandable-panel-content {
+	    padding:0 15px 0 15px;
+	    margin-top:-999px;
+	}
+	.expandable-panel-content p {
+	    padding:4px 0 6px 0;
+	}
+	.expandable-panel-content p:first-child  {
+	    padding-top:10px;
+	}
+	.expandable-panel-content p:last-child {
+	    padding-bottom:15px;   
+	}
+	.icon-close-open {
+	    width:20px;
+	    height:20px;
+	    position:absolute;
+	    background-image:url(icon-close-open.png);
+	    right:15px;
+	}
+	.expandable-panel-content img {
+	    float:right;
+	    padding-left:12px;
+	}
+	.header-active {
+	    background-color:#D0D7F3;
+	}

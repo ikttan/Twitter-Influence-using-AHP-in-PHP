@@ -1,0 +1,43 @@
+div{
+	
+}
+
+h2{
+	color: #0B0B61;
+	text-align: center;
+	bottom: 10px;
+	font-size: 200%;
+
+}
+
+table{
+	/*width: 30%;
+	margin-left:auto; 
+    margin-right:auto;*/
+
+}
+
+td{
+
+}
+
+.edelmantable{
+	width: :30%;
+	border-collapse: collapse;
+	border: 1px solid white;
+	color: black;
+}
+
+.score{
+	/*text-align: center;*/
+	text-shadow: 3px 3px 3px white;
+}
+
+.firstcol{
+	background-color: #819FF7;
+}
+
+.secondcol{
+	background-color: #CED8F6;
+	text-align: center;
+}
